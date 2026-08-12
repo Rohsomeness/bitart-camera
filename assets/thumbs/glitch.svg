@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="144" height="90" viewBox="0 0 144 90">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff2a6a"/>
+      <stop offset="100%" stop-color="#00ffc8"/>
+    </linearGradient>
+  </defs>
+  <rect width="144" height="90" fill="#180818"/>
+  <circle cx="72" cy="40" r="18" fill="none" stroke="url(#g)" stroke-width="3"/>
+  <circle cx="72" cy="40" r="6" fill="#ff2a6a"/>
+  <path d="M50 70 Q72 55 94 70" fill="none" stroke="#00ffc8" stroke-width="3" stroke-linecap="round"/>
+  <rect x="0" y="74" width="144" height="16" fill="#00000055"/>
+  <text x="72" y="86" text-anchor="middle" font-family="monospace" font-size="9" fill="#ff2a6a">GLITCH</text>
+</svg>
