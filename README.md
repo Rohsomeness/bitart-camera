@@ -4,6 +4,26 @@ Live webcam filters with **person segmentation** and a **pose playground** — s
 
 Everything runs **on-device** in your browser (MediaPipe). Video is never uploaded.
 
+**Live demo:** [rohsomeness.github.io/bitart-camera](https://rohsomeness.github.io/bitart-camera/)
+
+## Screenshots
+
+![Idle Bitart Camera player shell](docs/screenshots/idle-shell.jpg)
+
+*Retro player shell before the camera starts.*
+
+![Cyber filter live](docs/screenshots/live-cyber.jpg)
+
+*Cyber classic filter — magenta/cyan grade on the live feed (plus the how-it-works tip).*
+
+![VHS filter live](docs/screenshots/live-vhs.jpg)
+
+*VHS — tracking glitch, chromatic split, and scanlines.*
+
+![All filters grid](docs/screenshots/all-filters-grid.jpg)
+
+*All-filters grid (classic · segment · pose · hybrid).*
+
 ## Filters
 
 | Kind | Modes |
@@ -44,6 +64,4 @@ Serve over HTTPS or localhost (camera APIs require a secure context):
 npx --yes serve .
 ```
 
-## Deploy
-
-Pushed to GitHub Pages from `main` (root).
+Then open the printed URL and allow camera access.
